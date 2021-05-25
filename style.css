@@ -23,14 +23,14 @@ body{
 
 #floating-panel {
   position: absolute;
-  top: 127px;
-  left: 85px;
+  top: 17%;
+  left: 6%;
   z-index: 5;
   background-color: #7ce635;
   padding: 5px;
   border: 2px solid #999;
   text-align: center;
-  font-family: "andale mono";
+  font-family: "andale mono", Helvetica;
   line-height: 30px;
   padding-left: 10px;
   opacity: 0.8;
@@ -42,7 +42,7 @@ body{
 #break {
   font-size: 25px;
   line-height: 30px;
-  font-family: "andale mono";
+  font-family: "andale mono", Helvetica;
   letter-spacing: 1px;
   font-weight: 700;
   padding-bottom: 0px;
@@ -55,7 +55,7 @@ body{
 #description {
   font-size: 14px;
   line-height: 20px;
-  font-family: "andale mono";
+  font-family: "andale mono", Helvetica;
   font-weight: 300;
   letter-spacing: 1px;
   padding-top: 0px;
@@ -65,7 +65,7 @@ body{
 }
 
 #submit {
-  font-family: "andale mono";
+  font-family: "andale mono", Helvetica;
   background-color: white;  
   border-color: black;
   color: black;
@@ -74,6 +74,6 @@ body{
 /*# sourceMappingURL=style.css.map */
 
 #address{
-    font-family: "andale mono";
+    font-family: "andale mono", Helvetica;
     border-color: black;
 }
