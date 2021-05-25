@@ -1,0 +1,79 @@
+body{
+    background: -webkit-repeating-linear-gradient(black, black 16.5%, rgba(53, 47, 47, 0.212) 0%, rgba(53, 47, 47, 0.212) 100%);
+    background: -o-repeating-linear-gradient(black, black 164.5%, rgba(53, 47, 47, 0.212) 0%, rgba(53, 47, 47, 0.212) 100%);
+    background: -moz-repeating-linear-gradient(black, black 16.5%, rgba(53, 47, 47, 0.212) 0%, rgba(53, 47, 47, 0.212) 100%);
+    background: repeating-linear-gradient(black, black 16.5%, rgba(24, 22, 22, 0.95) 0%, rgba(24, 22, 22, 0.95) 100%);
+}
+
+
+
+
+#map {
+  height: 550px;
+  width: 1285px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  /* The height is 400 pixels */
+  /*width: 100%;
+    /* The width is the width of the web page */
+}
+
+
+
+#floating-panel {
+  position: absolute;
+  top: 127px;
+  left: 85px;
+  z-index: 5;
+  background-color: #7ce635;
+  padding: 5px;
+  border: 2px solid #999;
+  text-align: center;
+  font-family: "andale mono";
+  line-height: 30px;
+  padding-left: 10px;
+  opacity: 0.8;
+  border-color: black;
+  color: #dd3f3f;
+  
+}
+
+#break {
+  font-size: 25px;
+  line-height: 30px;
+  font-family: "andale mono";
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+  margin-left: 5%;
+  padding: 0;
+  color: #ededed;
+}
+
+#description {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "andale mono";
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-top: 0px;
+  margin-bottom: 0;
+  margin-left: 5%;
+  color: #ededed;
+}
+
+#submit {
+  font-family: "andale mono";
+  background-color: white;  
+  border-color: black;
+  color: black;
+  opacity: 0.9;
+}
+/*# sourceMappingURL=style.css.map */
+
+#address{
+    font-family: "andale mono";
+    border-color: black;
+}

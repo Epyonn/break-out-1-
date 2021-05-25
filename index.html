@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vehicle Break In</title>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+
+    <script src="index.js"></script>
+
+  </head>
+  <body>
+    <div class="intro">
+        <h3 id = "break">Break Out</h3>
+        <p id="description">Breaking out from the increasing trend of break ins. <br> Fuck burglaries, report them here.</p>
+    </div>
+
+    <div id="floating-panel">
+      
+        <input id="address" type="textbox" placeholder="Enter Location"
+        onfocus="this.placeholder=''" 
+        onblur="this.placeholder='Enter Location'" />
+        <input id="submit" type="button" value="Report"/>
+    </div>
+
+
+
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLu25wqirs0pAPnvjvH4hV4Se7Kcpzmps&callback=initMap&libraries=&v=weekly"
+    async
+  ></script>
+  </body>
+</html>
